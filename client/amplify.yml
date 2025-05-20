@@ -1,25 +1,22 @@
 version: 1
-applications:
-  - frontend:
-      phases:
-        preBuild:
-          commands:
-            - cd client
-            - npm install -g npm@10.8.2
-            - npm install --legacy-peer-deps
-            - npm install --save @react-navigation/native@6.1.9 @react-navigation/bottom-tabs@6.5.11 @react-navigation/native-stack@6.9.17 @react-navigation/stack@6.3.20
-        build:
-          commands:
-            - echo "GOOGLE_WEB_CLIENT_ID=$GOOGLE_WEB_CLIENT_ID" >> .env
-            - echo "GOOGLE_ANDROID_CLIENT_ID=$GOOGLE_ANDROID_CLIENT_ID" >> .env
-            - echo "GOOGLE_IOS_CLIENT_ID=$GOOGLE_IOS_CLIENT_ID" >> .env
-            - echo "API_URL=$API_URL" >> .env
-            - npm run build
-      artifacts:
-        baseDirectory: web-build
-        files:
-          - '**/*'
-      cache:
-        paths:
-          - node_modules/**/*
-    appRoot: client 
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install -g npm@10.8.2
+        - npm install --legacy-peer-deps
+        - npm install --save @react-navigation/native@6.1.9 @react-navigation/bottom-tabs@6.5.11 @react-navigation/native-stack@6.9.17 @react-navigation/stack@6.3.20
+    build:
+      commands:
+        - echo "GOOGLE_WEB_CLIENT_ID=$GOOGLE_WEB_CLIENT_ID" >> .env
+        - echo "GOOGLE_ANDROID_CLIENT_ID=$GOOGLE_ANDROID_CLIENT_ID" >> .env
+        - echo "GOOGLE_IOS_CLIENT_ID=$GOOGLE_IOS_CLIENT_ID" >> .env
+        - echo "API_URL=$API_URL" >> .env
+        - npm run build
+  artifacts:
+    baseDirectory: web-build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/* 
