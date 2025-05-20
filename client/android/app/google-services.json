@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "615048959288",
+    "project_id": "auth-4aa50",
+    "storage_bucket": "auth-4aa50.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615048959288:android:e1a9502919543f02c5ddcd",
+        "android_client_info": {
+          "package_name": "com.kitadrian.fintech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615048959288-v70sc2m2mumqkcskeq8auhueq3prg7vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kitadrian.fintech",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "615048959288-411ri03eldq6hg0fu7k705f5jr5c0ceu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa2mmaFjHZcICgaoGLayn5rMsZ_d7XIgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615048959288-411ri03eldq6hg0fu7k705f5jr5c0ceu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615048959288-psg84t1cmtolfg7puu3tddtq4kckgv82.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kitadrian.fintech"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615048959288:android:11f182296eb1dbf6c5ddcd",
+        "android_client_info": {
+          "package_name": "com.securegoogleauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615048959288-1qonju01abo3q229tdoit4k27058jarr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securegoogleauth",
+            "certificate_hash": "424af1da53ea5c42cf4cff0f1fdbd5eeec41c960"
+          }
+        },
+        {
+          "client_id": "615048959288-i9t4r4hu5r21v69nv2vpm8vugf2f40ds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securegoogleauth",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "615048959288-411ri03eldq6hg0fu7k705f5jr5c0ceu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa2mmaFjHZcICgaoGLayn5rMsZ_d7XIgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615048959288-411ri03eldq6hg0fu7k705f5jr5c0ceu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615048959288-psg84t1cmtolfg7puu3tddtq4kckgv82.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kitadrian.fintech"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
